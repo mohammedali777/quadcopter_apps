@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Item Name :"
+        android:textSize="25dp"
+        android:id="@+id/name_text"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_weight="0.06" />
+
+    <EditText
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/name_input" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="item weight :"
+        android:id="@+id/weight_txt"
+        android:layout_weight="0.06" />
+
+    <EditText
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/weight_input" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="x cords :"
+        android:id="@+id/x_cords"
+        android:layout_weight="0.06" />
+
+    <EditText
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/xcord_input" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="y cords :"
+        android:id="@+id/y_cords"
+        android:layout_weight="0.06" />
+
+    <EditText
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ycord_input" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="z cords :"
+        android:id="@+id/z_cords"
+        android:layout_weight="0.06" />
+
+    <EditText
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/zcord_input" />
+
+    <Button
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/register_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.26" />
+</LinearLayout>

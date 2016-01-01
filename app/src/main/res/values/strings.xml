@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">operatorApp</string>
+    <string name="publish_key">pub-c-a97462df-7fcd-4d1e-bf20-adfb38d922be</string>
+    <string name="subscribe_key">sub-c-520f8ce2-b088-11e5-a817-0619f8945a4f</string>
+    <string name="channel">quadcoptercontrol</string>
+</resources>
